@@ -130,7 +130,7 @@ http://catkin-tools.readthedocs.io/en/latest/verbs/catkin_profile.html
 cd ~/ws_scarab
 catkin profile add install
 catkin profile set install
-catkin config --install
+catkin config --install -DCMAKE_BUILD_TYPE=Release
 catkin clean
 catkin build
 ```
